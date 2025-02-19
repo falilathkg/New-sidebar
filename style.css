@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(8, 253, 253);
+  background-color: rgb(46, 44, 44);
+}
+.menu {
+  list-style: none;
+  margin: 2px;
+  padding: 5px;
+  background-color: rgb(8, 253, 253);
+  color: rgb(46, 44, 44);
+  position: fixed;
+  left: -160%;
+  height: 100%;
+  width: 15vw;
+  font-size: 2rem;
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+}
+
+.menu li:hover {
+  color: white;
+  background-color: black;
+}
+
+#togglebtn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 10px 15px;
+  color: rgb(8, 253, 253);
+  background-color: transparent;
+  border: none;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#close {
+  position: relative;
+  right: -165%;
+  top: 10px;
+  padding: 0px 15px;
+  color: rgb(8, 253, 253);
+  padding-right: 10px;
+  border: none;
+  padding-left: 10px;
+  float: left;
+  background-color: transparent;
+  font-size: 60px;
+  cursor: pointer;
+}
+.menu.open {
+  left: 0;
+}
+
+.paragraphe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-justify: auto;
+  gap: 50px;
+  padding: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 5rem;
+}
